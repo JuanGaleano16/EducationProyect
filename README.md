@@ -1,4 +1,4 @@
 # FirstProyect
 Primer repositorio
 
-By: Juan Galeano
+By: Juan David Galeano Diaz
