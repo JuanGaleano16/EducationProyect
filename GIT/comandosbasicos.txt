@@ -1,3 +1,5 @@
+Comando basicos del Git local
+
 1. una vez creado un repositorio en GitHub, vamos a copiar la clave ssh del repositorio en el boton de "code"
 2. Abrimos el Git local y nos dirijimos a la carpeta que deseemos
     2.1 git clone (pegamos la llave del repositorio)  --enter
@@ -5,3 +7,8 @@
 3. git status --para verificar si tenemos algo por guardar
 4. git commit -am "comentario" --de esta manera guardamos en local y asignamos un comentario al commit
 5. git push origin main --para enviar lo guardado al GitHub a la rama main o la rama que deseemos
+6. git fetch --para refrescar en mi local si se movio algo en el repositorio
+7. git pull origin main --para aplicar en mi local los cambios generados en el repositorio
+8. git branch (nombre branch) --para crear otro branch a partir de una rama
+9. git checkout (nombre branch) --para cambiar de branch o rama y poder guardar los cambios en esa rama
+10. git branch -B (nombre branch) --para crear otro branch o rama y moverme automaticamente

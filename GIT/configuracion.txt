@@ -1,3 +1,5 @@
+Toda la configuracion del Git local y el GitHub
+
 1. Instalar GIT
 2. Crear cuenta en GitHub
 3. Ejecutar GitBash para configurar el local y la conexion
