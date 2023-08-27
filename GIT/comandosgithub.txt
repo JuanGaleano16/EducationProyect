@@ -1,0 +1,4 @@
+Comandos basicos en la interfaz de GitHub
+
+1. Pull request, seleccionamos la rama la cual vamos a unir con la rama principal o de destino, colocamos un titulo y/o descripcion, creamos el pull request
+    si es necesario verificar el pull request se verifica, para luego dar en "confirm merge" y asi aceptar el pull
