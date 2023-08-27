@@ -1,0 +1,7 @@
+1. una vez creado un repositorio en GitHub, vamos a copiar la clave ssh del repositorio en el boton de "code"
+2. Abrimos el Git local y nos dirijimos a la carpeta que deseemos
+    2.1 git clone (pegamos la llave del repositorio)  --enter
+    2.2 abrimos la carpeta del repositoprio que se clono y tiene que aparcer la rama principal (main) en el titulo
+3. git status --para verificar si tenemos algo por guardar
+4. git commit -am "comentario" --de esta manera guardamos en local y asignamos un comentario al commit
+5. git push origin main --para enviar lo guardado al GitHub a la rama main o la rama que deseemos
