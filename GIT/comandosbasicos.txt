@@ -12,3 +12,9 @@ Comando basicos del Git local
 8. git branch (nombre branch) --para crear otro branch a partir de una rama
 9. git checkout (nombre branch) --para cambiar de branch o rama y poder guardar los cambios en esa rama
 10. git branch -B (nombre branch) --para crear otro branch o rama y moverme automaticamente
+11. git reset --hard --para restaurar todos los cambios al ultimo commit guardado en GitHub
+12. git checkout HEAD -- (nombre archivo) --para restaurar los cambios de un solo archivo al ultimo commit en Github
+13. git log --historial de cambios
+14. git log --oneline --historial de cambios reducido
+15. git log --oneline --graph --historial de cambios de manera grafica
+16. git checkout (id log) --moverme a un commit en especifico
