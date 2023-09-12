@@ -1,4 +1,9 @@
 Comandos basicos en la interfaz de GitHub
 
 1. Pull request, seleccionamos la rama la cual vamos a unir con la rama principal o de destino, colocamos un titulo y/o descripcion, creamos el pull request
-    si es necesario verificar el pull request se verifica, para luego dar en "confirm merge" y asi aceptar el pull
+    si es necesario verificar el pull request se verifica, para luego dar en "confirm merge" y asi aceptar el 
+    
+2. Release, seleccionamos la rama, asiganmos version, titulo, descripcion y lo publicamos. (liberar codigo final de un proyecto)
+
+3. Issues, identificar problemas y resolverlos creando un branch especificamente para ese problema, cuando ya este solucionado, se hace pull request, en los comentarios del
+issue se coloca (fixes # "issue". closes #issue") confirmamos merge y se cierra el issue automaticamente
