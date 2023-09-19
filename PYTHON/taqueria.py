@@ -8,22 +8,26 @@ def main():
         "BURRITO": 8.50,
         "BOWL": 9.50,
         "NACHOS": 11.00
-        }
-#Recorremos
-while True:
-    try:
-        item = input("Ingrese artifculo de su pedido: ")
-    except EOFError:
-        print("Error...")
-        break
-    item = item.upper()
-    if item in menu:
-        order_total += menu[item]
-    elif item == "CONTROL -D":
-        print("Su totaL es: ${order_total:.2f}")
-        break
-    else:
-        print("Articulo Invalido")
-
+    }
+#Inicialzamos el contador en 0
+    order_total = 0.0
+    #pedimos que ingrese un articulo con un ciclo while
+    while True:
+        try:
+            item = input("Ingrese artifculo de su pedido: ")
+        except EOFError:
+            print("Error...")
+            break
+        #lo que digite el usuario todo lo manda con mayusculas, le decimos que si el articulo esta en el diccionario le sume el valor al total, si se quiere salir digita "CONTROL -D"
+        #y si digita un articulo invalido muestra un error y no lo suma
+        item = item.upper()
+        if item in menu:
+            order_total += menu[item]
+        elif item == "CONTROL -D":
+            print("Su totaL es: ${order_total:.2f}")
+            break
+        else:
+            print("Articulo Invalido")
+#Esta funcion se ejecuta solo en este archivo
 if __name__ == "__main__":
     main()
