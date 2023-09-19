@@ -14,7 +14,7 @@ def main():
     #pedimos que ingrese un articulo con un ciclo while
     while True:
         try:
-            item = input("Ingrese artifculo de su pedido: ")
+            item = input("Ingrese articulo de su pedido: ")
         except EOFError:
             print("Error...")
             break
@@ -24,7 +24,7 @@ def main():
         if item in menu:
             order_total += menu[item]
         elif item == "CONTROL -D":
-            print("Su totaL es: ${order_total:.2f}")
+            print(f"Su totaL es: ${order_total:.2f}")
             break
         else:
             print("Articulo Invalido")
