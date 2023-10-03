@@ -28,6 +28,6 @@ def main():
             break
         else:
             print("Articulo Invalido")
-#Esta condicion hace que la funcion se ejecute solo en este archivos
+#Esta condicion hace que la funcion se ejecute solo en este archivo
 if __name__ == "__main__":
     main()
