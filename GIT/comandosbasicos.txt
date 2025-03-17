@@ -18,3 +18,5 @@ Comando basicos del Git local
 14. git log --oneline --historial de cambios reducido
 15. git log --oneline --graph --historial de cambios de manera grafica
 16. git checkout (id log) --moverme a un commit en especifico
+
+prueba
