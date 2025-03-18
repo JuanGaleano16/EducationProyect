@@ -12,11 +12,11 @@ es_primo = True
 
 if num <= 1:
     es_primo = False
-"""else:
+else:
     for i in range(2, (num // 2) + 1):
         if num % i == 0:
             es_primo = False
-            break"""
+            break
 
 if es_primo:
     print("EL NUMERO ES PRIMO")
